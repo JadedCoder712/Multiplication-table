@@ -20,8 +20,17 @@ Height of multiplication table: 8
   6  12  18  24  30  36  42  48  54  60
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
-"""
+  
 for i in range(1, 2):
     print(i, i, i, i, i, i, i, i, i, i)
 for y in range(2, 3):
     print(y, y, y, y, y, y, y, y, y, y)
+"""
+for i in range(1,11):
+    for j in range (1,9):
+        west = i * j
+        print(west)
+    
+
+    
+    
