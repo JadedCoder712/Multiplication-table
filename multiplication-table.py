@@ -26,11 +26,15 @@ for i in range(1, 2):
 for y in range(2, 3):
     print(y, y, y, y, y, y, y, y, y, y)
 """
+"""
 for i in range(1,11):
     for j in range (1,9):
         west = i * j
         print(west)
-    
+"""
 
-    
-    
+x = input("What is the width?")
+y = input("What is the height?")
+
+somenumbers = [1, int(x)+1]
+print(list(somenumbers))
