@@ -1,9 +1,14 @@
-width = input("What is the width?")
-height = input("What is the height?")
-
-#while x < int(width):
+width =  10 #input("What is the width?")
+height = 8 #input("What is the height?")
 
 mylist = range(1, int(width) +1)
+n = 5
 
-for n in mylist:
-    print(n, end = " ")
+ 
+#loop
+while n <= int(height):
+      n = n + 1
+      for b in mylist:
+        b = b * n
+        for b in mylist:
+            print(, end="  ")        #, end = " ")
