@@ -21,20 +21,26 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
   
-for i in range(1, 2):
-    print(i, i, i, i, i, i, i, i, i, i)
-for y in range(2, 3):
-    print(y, y, y, y, y, y, y, y, y, y)
-"""
-"""
-for i in range(1,11):
-    for j in range (1,9):
-        west = i * j
-        print(west)
-"""
+width =  10 #input("What is the width?")
+height = 8 #input("What is the height?")
 
-x = input("What is the width?")
-y = input("What is the height?")
-
-somenumbers = [1, int(x)+1]
-print(list(somenumbers))
+mylist = range(1, int(width) +1)
+n = 0
+end1="  "
+ 
+#loop
+while n <= int(height):
+    n = n + 1
+    for b in mylist:
+        if mylist[3] >= 10:
+            print(b * n, end=end1)
+        else:
+            print(b * n, end=" ")
+    print("")
+    
+    
+    """
+    if endnumber >=10:
+        then end= " "
+        
+        """
