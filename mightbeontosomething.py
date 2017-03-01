@@ -1,5 +1,5 @@
-width =  10 #input("What is the width?")
-height = 8 #input("What is the height?")
+width = input("What is the width? ")
+height = input("What is the height? ")
 
 mylist = range(1, int(width) +1)
 n = 0
@@ -12,15 +12,6 @@ while n <= int(height):
         temp = b * n
         if temp < 10:
             print(b * n, end="   ")
-        elif temp >= 10:
+        else:
             print(b * n, end="  ")
     print("")
-    
-    
-    """
-    if endnumber >=10:
-        then end= " "
-        
-        """
-        
-        
