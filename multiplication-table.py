@@ -21,15 +21,14 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
   """
-width = input("What is the width? ")
-height = input("What is the height? ")
+width = input("Width of multiplication table: ")
+height = input("Height of multiplication table: ")
 
 mylist = range(1, int(width) +1)
 n = 0
-end1="  "
- 
+
 #loop
-while n <= int(height):
+while n < int(height):
     n = n + 1
     for b in mylist:
         temp = b * n
