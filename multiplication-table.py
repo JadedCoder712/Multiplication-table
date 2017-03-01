@@ -20,6 +20,7 @@ Height of multiplication table: 8
   6  12  18  24  30  36  42  48  54  60
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
+  """
   
 width =  10 #input("What is the width?")
 height = 8 #input("What is the height?")
@@ -35,12 +36,12 @@ while n <= int(height):
         if mylist[3] >= 10:
             print(b * n, end=end1)
         else:
-            print(b * n, end=" ")
+            print(b * n, end="   ")
     print("")
     
     
-    """
+    
     if endnumber >=10:
-        then end= " "
+        then end= "  "
         
-        """
+        
