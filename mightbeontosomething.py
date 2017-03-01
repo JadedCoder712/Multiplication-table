@@ -9,10 +9,10 @@ end1="  "
 while n <= int(height):
     n = n + 1
     for b in mylist:
-        if mylist[3] >= 10:
-            print(b * n, end=end1)
+        if b in mylist >= 10:
+            print(b * n, end="  ")
         else:
-            print(b * n, end=" ")
+            print(b * n, end="   ")
     print("")
     
     
